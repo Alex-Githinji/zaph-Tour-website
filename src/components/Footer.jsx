@@ -16,22 +16,35 @@ const Foooter = () => {
         <div className="footer-content">
           <h3>Quick Links</h3>
           <ul>
-            <li> <a href="">Home</a></li>
-            <li> <a href="">Contact us</a></li>
-            <li> <a href=""></a>Services</li>
-            <li> <a href=""></a>products</li>
+            <li>
+              {" "}
+              <a href="">Home</a>
+            </li>
+            <li>
+              {" "}
+              <a href="">Contact us</a>
+            </li>
+            <li>
+              {" "}
+              <a href=""></a>Services
+            </li>
+            <li>
+              {" "}
+              <a href=""></a>products
+            </li>
           </ul>
         </div>
         <div className="footer-content">
-          
           <label htmlFor>subsciribe to our newsletter</label>
-          <input type="text" id="email" className="name" placeholder="enter email"></input>
+          <input
+            type="text"
+            id="email"
+            className="name"
+            placeholder="enter-email"
+          ></input>
           <button>Subscribe</button>
-
-           
         </div>
       </div>
-      
     </footer>
   );
 };
