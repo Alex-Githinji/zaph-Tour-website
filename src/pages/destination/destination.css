@@ -1,0 +1,86 @@
+.destination-banner {
+  background-color: #686d76;
+  height: 20vh;
+}
+
+.destination-banner h1 {
+  font-size: 40px;
+  display: grid;
+  place-content: center;
+  border-top: 20px;
+}
+
+.destination-banner p {
+  font-size: 20px;
+  display: grid;
+  place-content: center;
+}
+
+.destination-body {
+  margin: 2.5rem;
+  padding: 0.5rem 1rem;
+  width: 35rem;
+  overflow: hidden;
+  box-shadow: 0px 11px 55px 16px rgba(0, 0, 0, 0.54);
+  -webkit-box-shadow: 0px 11px 55px 16px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: 0px 11px 55px 16px rgba(0, 0, 0, 0.54);
+  border-radius: 20px;
+  /* border: 2px solid red; */
+
+}
+
+.destination-body:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease-in-out;
+  background-color: #dc5f00;
+}
+
+.wrapper-body img {
+  width: 65vh;
+  height: 40vh;
+  display: block;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.wrapper-body h2 {
+  font-size: 25px;
+  display: grid;
+  place-content: center;
+  padding: 10px;
+}
+
+.wrapper-body p {
+  line-height: 1.8;
+  padding: 10px;
+}
+
+.wrapper-body span {
+  font-weight: bolder;
+  display: grid;
+  place-content: center;
+  font-size: larger;
+}
+
+.wrapper-body p:nth-last-child(2) {
+  font-weight: bolder;
+  display: grid;
+  place-content: center;
+}
+
+.wrapper-body button {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #dc5f00;
+}
+
+
+.destination{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #686d76;
+    margin: 20px;
+    
+}
+
