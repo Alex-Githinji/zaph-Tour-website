@@ -80,3 +80,19 @@
   background-color: #686d76;
   margin: 20px;
 }
+
+/* @media screen (max-width:615px) {
+ .wrapper-body img {
+  width: 40vh;
+  height: 30vh;
+  border-radius: 20px;
+  object-fit: cover;
+  }
+    .wrapper-body {
+      padding: 10px;
+      }
+    .wrapper-body h2 {
+      font-size: 20px;
+      }
+  
+} */

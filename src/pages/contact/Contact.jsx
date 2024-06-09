@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./contact.css";
-import { FaPhoneFlip, FaAddressBook, FaInstagram, MdEmail } from "react-icons/fa6";
+import { FaPhoneFlip, FaAddressBook, FaInstagram } from "react-icons/fa6";
 
 const Contact = () => {
   return (
@@ -53,7 +53,7 @@ const Contact = () => {
 
               <div class="contact-info-item">
                 <div class="contact-info-icon">
-                  <i class="fas fa-envelope"> {<MdEmail />} </i>
+                  <i class="fas fa-envelope">  </i>
                 </div>
 
                 <div class="contact-info-content">

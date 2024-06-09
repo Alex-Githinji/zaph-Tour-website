@@ -116,11 +116,13 @@
   }
   
  
-  @media (max-width: 768px) {
+  @media (max-width: 1340px) {
     .trips {
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
+      display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     place-content: center;
+    
+    
     }
   
     .trips-img,
@@ -133,14 +135,16 @@
       margin-right: 0;
     }
    
-  }
+  }            
 
-  @media screen and (max-width: 1170px) {
+  @media screen and (max-width: 695px) {
     .trips {
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: space-between ;
+      grid-template-columns: 1fr;
+      
+         
     
   }
 }
+
+
   
