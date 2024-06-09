@@ -16,6 +16,10 @@ const Contact = () => {
             </p>
           </div>
         </div>
+        <div className="available">
+          <h3>Available Everyday of the week</h3>
+          <p>working hours are 8a.m to 5p.m every day</p>
+        </div>
 
         <div class="container1">
           <div class="row">

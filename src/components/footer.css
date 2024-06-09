@@ -1,91 +1,96 @@
-.footer {
-  display: flex;
-  align-items: center;
-  place-content: center;
 
-  padding: 20px;
-  background-color: #dc5f00;
+.footer {
+  background-color: #DC5F00;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .footer-container {
-  width: 1140px;
-  margin: auto;
   display: flex;
-  justify-content: center;
-}
-.footer-content {
-  width: 33.3%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .footer-content {
-  width: 100px;
-  margin: auto;
-  padding: 7px;
+  flex: 1;
+  margin: 10px;
+  min-width: 250px;
 }
+
+.footer-content h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
 
 .footer-content p {
-  width: 190px;
-  margin: auto;
-  padding: 7px;
+  font-size: 14px;
+  margin: 5px 0;
 }
+
 
 .footer-content ul {
-  text-align: center;
-}
-
-.list {
+  list-style-type: none;
   padding: 0;
 }
 
-.list li {
-  width: auto;
-  text-align: center;
-  list-style-type: none;
-  padding: 7px;
-  position: relative;
+.footer-content ul li {
+  margin: 5px 0;
+}
+
+.footer-content ul li a {
+  color: #fff;
   text-decoration: none;
+  transition: color 0.3s;
 }
 
-.list li::before {
-  content: "";
-  position: absolute;
-  transform: translate(-50%, -50%);
-  left: 50%;
-  top: 100%;
-  width: 0;
-  height: 2px;
-  transition-duration: 0.5s;
+.footer-content ul li a:hover {
+  color: #373A40;
 }
 
-.list li :hover::before {
-  width: 70px;
+
+.footer-content label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 
-.a {
-  text-decoration: none;
+.footer-content input[type="text"] {
+  width: calc(100% - 22px); 
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
 }
 
-.end {
-  display: grid;
-  place-content: center;
+.footer-content button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f39c12;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-@media screen and (max-width: 670px) {
-  .footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px;
+.footer-content button:hover {
+  background-color: #373A40;
+}
+
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
   }
 
-  /* .footer-content{
-
-    flex-direction: column;
-    }
-    .list li{
-      padding: 10px;
-      }
-      .list li::before{
-        display: none;
-        } */
+  .footer-content {
+    margin: 20px 0;
+    text-align: left;
+  }
 }
+

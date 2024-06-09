@@ -153,7 +153,7 @@ const Home = () => {
         </div>
       </div>
       <div className="testimony">
-        <div className="about-items">
+        <div className="about-item">
           <img src={testimony} alt="" />
           <h1>Denzel lawrence</h1>
           <p>
@@ -164,7 +164,7 @@ const Home = () => {
           </p>
         </div>
 
-        <div className="about-items">
+        <div className="about-item">
           <img src={testimony1} alt="" />
           <h1>Webster Ifedha</h1>
           <p>

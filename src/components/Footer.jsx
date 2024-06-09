@@ -22,15 +22,15 @@ const Foooter = () => {
             </li>
             <li>
               {" "}
-              <a href="">Contact us</a>
+              <a href="">trips</a>
             </li>
             <li>
               {" "}
-              <a href=""></a>Services
+              <a href=""></a>contact us
             </li>
             <li>
               {" "}
-              <a href=""></a>products
+              <a href=""></a>Destinations
             </li>
           </ul>
         </div>
@@ -40,7 +40,7 @@ const Foooter = () => {
             type="text"
             id="email"
             className="name"
-            placeholder="enter-email"
+            placeholder="enter email"
           ></input>
           <button>Subscribe</button>
         </div>
