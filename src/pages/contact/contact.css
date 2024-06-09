@@ -69,7 +69,7 @@
 .contact-info-icon {
   height: 70px;
   width: 70px;
-  background-color: #9b9191;
+  background-color: #dc5f00;
   text-align: center;
   border-radius: 50%;
 }
@@ -77,6 +77,9 @@
 .contact-info-icon i {
   font-size: 30px;
   line-height: 70px;
+  color: #333;
+ 
+  
 }
 
 .contact-info-content {

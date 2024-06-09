@@ -1,5 +1,6 @@
+import { Link } from "react-router-dom";
 import "./contact.css";
-import { FaPhoneFlip } from "react-icons/fa6";
+import { FaPhoneFlip, FaAddressBook, FaInstagram, MdEmail } from "react-icons/fa6";
 
 const Contact = () => {
   return (
@@ -26,7 +27,7 @@ const Contact = () => {
             <div class="contact-info">
               <div class="contact-info-item">
                 <div class="contact-info-icon">
-                  <i class="fas fa-home"></i>
+                  <i class="fas fa-home">{<FaAddressBook  />}</i>
                 </div>
 
                 <div class="contact-info-content">
@@ -41,18 +42,18 @@ const Contact = () => {
 
               <div class="contact-info-item">
                 <div class="contact-info-icon">
-                  <i class="FaPhoneFlip"></i>
+                  <i class="FaPhoneFlip">{<FaPhoneFlip /> }</i>
                 </div>
 
                 <div class="contact-info-content">
                   <h4>Phone</h4>
-                  <p>+254-457-2321</p>
+                  <p>+254792832908</p>
                 </div>
               </div>
 
               <div class="contact-info-item">
                 <div class="contact-info-icon">
-                  <i class="fas fa-envelope"></i>
+                  <i class="fas fa-envelope"> {<MdEmail />} </i>
                 </div>
 
                 <div class="contact-info-content">
@@ -60,7 +61,20 @@ const Contact = () => {
                   <p>zaph tour@gmail.com</p>
                 </div>
               </div>
+
+              
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <i class="fas fa-instagram">{<FaInstagram />}</i>
+                </div>
+
+                <div class="contact-info-content">
+                  <h4>Instagram</h4>
+                  <p>zaph_tour@254</p>
+                </div>
+              </div>
             </div>
+            
 
             <div class="contact-form">
               <form action="" id="contact-form">

@@ -168,17 +168,6 @@ const Trips = () => {
         </div>
 
     </div>
-
-
-    
-    
-
-                 
-
-    
-    
-  
- 
   </section>
     
   )
