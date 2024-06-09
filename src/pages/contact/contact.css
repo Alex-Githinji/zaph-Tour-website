@@ -78,7 +78,6 @@
   font-size: 30px;
   line-height: 70px;
   color: #333;
- 
   
 }
 
@@ -165,6 +164,25 @@
   color:#333;
 }
 
+.contact-map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #333;
+  border-width: 65%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0);
+}
+
+.contact-map iframe {
+  width: 65%;
+  height: 300px;
+  border: none;
+ border-radius: 10px;
+ }
+
 @media (max-width: 991px) {
   .section1 {
     padding-top: 50px;
@@ -185,12 +203,4 @@
   }
 }
 
-.contact-map {
-  display: flex;
-}
 
-.contact-map iframe {
-  height: 400px;
-  border-left: 30px;
-  display: grid;
-}

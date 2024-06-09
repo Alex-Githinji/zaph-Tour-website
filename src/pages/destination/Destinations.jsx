@@ -2,6 +2,12 @@ import "./destination.css";
 import { Link } from "react-router-dom";
 import kenya from "./images/kenya.jpg";
 import Destination from "./Destination";
+import ruwenzori from "./images/ruwenzori.jpg";
+import nakuru from "./images/nakuru.jpg";
+import nairobi from "./images/nairobi.jpg";
+import tsavo from "./images/tsavo.jpg";
+import beach from "./images/beach.jpg";
+
 
 const Destinations = () => {
   return (
@@ -22,7 +28,7 @@ const Destinations = () => {
         </div>
         <div className="destination-body">
           <Destination
-            image={kenya}
+            image={ruwenzori}
             Destinations="Mt Ruwenzori"
             Description="The unique shape of the Safari Tents stung along a ridge above the river and designed to make the most of the panoramic views with each tent sitting on a raised platform. Mahali Mzuri the Maasai community experiences offer guests the chance to visit one of the local villages "
             pricePerperson="single person ksh 17,000"
@@ -31,7 +37,7 @@ const Destinations = () => {
         </div>
         <div className="destination-body">
           <Destination
-            image={kenya}
+            image={nakuru}
             Destinations="lake Nakuru"
             Description="The unique shape of the Safari Tents stung along a ridge above the river and designed to make the most of the panoramic views with each tent sitting on a raised platform. Mahali Mzuri the Maasai community experiences offer guests the chance to visit one of the local villages "
             pricePerperson="single person kSH 17,000"
@@ -40,7 +46,7 @@ const Destinations = () => {
         </div>
         <div className="destination-body">
           <Destination
-            image={kenya}
+            image={tsavo}
             Destinations="Tsavo National park"
             Description="The unique shape of the Safari Tents stung along a ridge above the river and designed to make the most of the panoramic views with each tent sitting on a raised platform. Mahali Mzuri the Maasai community experiences offer guests the chance to visit one of the local villages e"
             pricePerperson="single person ksh 17,000"
@@ -49,7 +55,7 @@ const Destinations = () => {
         </div>
         <div className="destination-body">
           <Destination
-            image={kenya}
+            image={nairobi}
             Destinations="Nairobi national park"
             Description="The unique shape of the Safari Tents stung along a ridge above the river and designed to make the most of the panoramic views with each tent sitting on a raised platform. Mahali Mzuri the Maasai community experiences offer guests the chance to visit one of the local villages "
             pricePerperson="single person 17,000"
@@ -58,7 +64,7 @@ const Destinations = () => {
         </div>
         <div className="destination-body">
           <Destination
-            image={kenya}
+            image={beach}
             Destinations="Coastal region Kenya"
             Description="Mt kenya is a beartiful place where you can get better experience"
             pricePerperson="single person ksh 17,000"
