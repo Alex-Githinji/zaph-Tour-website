@@ -1,6 +1,6 @@
 .destination-banner {
-  background-color: #686d76;
-  height: 25vh;
+  background-color: #dc5f00;
+ 
 }
 
 .destination-banner h1 {
@@ -25,7 +25,7 @@
   -webkit-box-shadow: 0px 11px 55px 16px rgba(0, 0, 0, 0.54);
   -moz-box-shadow: 0px 11px 55px 16px rgba(0, 0, 0, 0.54);
   border-radius: 20px;
-  /* border: 2px solid red; */
+  
 }
 
 .destination-body:hover {
@@ -77,22 +77,22 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #686d76;
   margin: 20px;
 }
 
-/* @media screen (max-width:615px) {
- .wrapper-body img {
-  width: 40vh;
-  height: 30vh;
-  border-radius: 20px;
-  object-fit: cover;
-  }
-    .wrapper-body {
-      padding: 10px;
-      }
+ @media screen and (max-width: 690px) {
+  .wrapper-body img {
+   display: grid;
+   place-content: center;
+    object-fit: cover;
+    min-width: 35px;
+    }
     .wrapper-body h2 {
       font-size: 20px;
       }
+      .wrapper-body p {
+        font-size: 15px;
+        }
   
-} */
+ }
+  
